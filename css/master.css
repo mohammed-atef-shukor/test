@@ -1,0 +1,206 @@
+.img{
+    width: 190px;
+    height:100px;
+}
+.img img{
+   width: 64%;
+   height:100%;
+   border-radius:50%;
+   -webkit-border-radius:50%;
+   -moz-border-radius:50%;
+   -ms-border-radius:50%;
+   -o-border-radius:50%;
+   border-color: rgb(43 179 132);
+   border-width: 5px;
+   border-style: solid;
+   margin-top: 20px;
+}
+
+.top{
+    background-image: url("../img/test.png");
+    margin-top:-10px;
+    width: 100%;
+    height:220px;
+    border-bottom: 3px dashed #43b78f;
+}
+.top .arrange-top {
+    width:80%;
+    display:flex;
+    justify-content:space-between;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.span-parent{
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 39px;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.span-parent span {
+    background-color: #333;
+    height: 2px;
+    width:100%;
+}
+.span-parent :nth-child(2) {
+    width:70%;
+    transition:.3s;
+    -webkit-transition:.3s;
+    -moz-transition:.3s;
+    -ms-transition:.3s;
+    -o-transition:.3s;
+}
+.test:hover span:nth-child(2){
+    width:100%;
+}
+div  a{
+    text-decoration:none;
+    display:flex;
+    justify-content:center;
+}
+.test  ul{
+     margin:0px;
+     position: absolute;
+    padding:0px;
+    width:200px;
+     top: 50px;
+    margin-left:-168px;
+     display: none;
+     overflow: hidden;
+     color:
+     black;
+}
+.test ul::after{
+    content:
+    "";
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent #eee transparent;
+    position: absolute;
+    left:161px;
+    top:-8px;
+}
+
+ul li:not(first-child) {
+    background-color: #EEE;
+    width: 100%;
+    list-style:none;
+    border-bottom: 2px solid #43b78f;
+    height:32px;
+    display: flex;
+    align-items:center;
+    padding-left:2px;
+    transition:.3s    ;
+    -webkit-transition:.3s    ;
+    -moz-transition:.3s    ;
+    -ms-transition:.3s    ;
+    -o-transition:.3s    ;
+
+}
+ul :hover {
+    padding-left: 20px;
+}
+.test:hover .span-parent +ul{
+    display:block;
+}
+ ul li:first-child{
+    background-color: transparent;
+}
+.img::after{
+    content: "Eng:mohammed atef shukor";
+    min-width:220px ;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #43b78f;
+    padding: 5px;
+    position: absolute;
+    top: 24%;
+    left: 42%;
+    border: 2px solid;
+    font-size: 17px;
+    font-family: cursive;
+ }
+ @media (max-width:650px){
+    .img::after{
+        left:1%;
+        top: 24%;
+
+    }
+ }
+ @media (max-width:415px ){
+    .img::after{
+        left:1%;
+        top: 22%;
+
+    }
+}
+@media (max-width:360px ){
+    .img::after{
+        left:1%;
+        top: 18%;
+
+    }
+}
+@media (max-width:390px ){
+    .img::after{
+        left:1%;
+        top: 21%;
+
+    }
+}
+.About-me{
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+}
+.img-about{
+    width: 168px;
+    height: 212px;
+    border-radius: 17px;
+    position: relative;
+    top: 1px;
+    left: 456px;
+}
+
+.parg{
+    max-width: 417px;
+    position: relative;
+    top: -222px;
+    left: 19px;
+    line-height: 23px;
+    word-spacing: 1px;
+    letter-spacing: .5px;
+    height: 11px;
+}
+.About-me :nth-child(1){
+    background-color: powderblue;
+    max-width: 542px;
+} 
+div h2{
+    position: relative;
+    left: 226px;
+    top: 13px;
+    width: 102px;
+
+}
+footer div{
+    background-color: #3aa3cc;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer{
+    position: relative;
+    top: 79px;
+}
+a{
+    margin-left: 9px;
+}
